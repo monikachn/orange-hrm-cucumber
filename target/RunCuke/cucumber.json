@@ -1,0 +1,963 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3828246900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should should login successfully",
+        "description": "",
+        "id": "login-page-test;user-should-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 685707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 315356400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter username",
+            "match": {
+              "location": "LoginTestSteps.iEnterUsername()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98241800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter password",
+            "match": {
+              "location": "LoginTestSteps.iEnterPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 935611500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on Login Button",
+            "match": {
+              "location": "LoginTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289168000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Should Verify \"Dashboard\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginTestSteps.iShouldVerifyMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1869594400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should see Orange HRM Logo",
+        "description": "",
+        "id": "login-page-test;user-should-see-orange-hrm-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 648373500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232183000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Should Verify Logo is Displayed",
+            "match": {
+              "location": "LoginTestSteps.iShouldVerifyLogoIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2021920800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should should log out successfully",
+        "description": "",
+        "id": "login-page-test;user-should-should-log-out-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1510761800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1371631400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Login To The application",
+            "match": {
+              "location": "LoginTestSteps.iLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2049491000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Click on User Profile logo",
+            "match": {
+              "location": "LoginTestSteps.iClickOnUserProfileLogo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2549942300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Mouse hover on Logout and click",
+            "match": {
+              "location": "LoginTestSteps.iMouseHoverOnLogoutAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249622500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Should Verify the text Login Panel is displayed",
+            "match": {
+              "location": "LoginTestSteps.iShouldVerifyTheTextLoginPanelIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2072724300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Admin should add user successfully",
+        "description": "",
+        "id": "user-test;admin-should-add-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 978187900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435774100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Login to Application",
+            "match": {
+              "location": "UserTestSteps.iLoginToApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4598509700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on that Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnThatAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244708700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Should Verify System Users Text",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 529965300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click On Add button",
+            "match": {
+              "location": "UserTestSteps.clickOnAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270262200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Should Verify Add User Text",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifyAddUserText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22234058400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Select User Role Admin",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRoleAdmin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22135309500,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027oxd-autocomplete-wrapper\u0027]//*[contains(text(),\u0027Jaya  Raja\u0027)]\"}\n  (Session info: chrome\u003d113.0.5672.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fca3269894fd1aae4bb1262032eb0f32, findElement {using\u003dxpath, value\u003d//*[@class\u003d\u0027oxd-autocomplete-wrapper\u0027]//*[contains(text(),\u0027Jaya  Raja\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Monika\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54268}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54268/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fca3269894fd1aae4bb1262032eb0f32\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.orangehrmlive.demo.utility.Utility.clickOnElement(Utility.java:51)\r\n\tat com.orangehrmlive.demo.pages.AddUserPage.enterEmployeeName(AddUserPage.java:92)\r\n\tat com.orangehrmlive.demo.steps.UserTestSteps.iEnterEmployeeNameAnanyaDash(UserTestSteps.java:54)\r\n\tat ✽.And I enter Employee Name Ananya Dash(UserTest.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I enter Employee Name Ananya Dash",
+            "match": {
+              "location": "UserTestSteps.iEnterEmployeeNameAnanyaDash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter Username",
+            "match": {
+              "location": "UserTestSteps.iEnterUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I Select status Disable",
+            "match": {
+              "location": "UserTestSteps.iSelectStatusDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter password",
+            "match": {
+              "location": "UserTestSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter Confirm Password",
+            "match": {
+              "location": "UserTestSteps.iEnterConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click On Save Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I Should verify message Successfully Saved",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifyMessageSuccessfullySaved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1908969300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search the user that created and Verify that user",
+        "description": "",
+        "id": "user-test;search-the-user-that-created-and-verify-that-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1397327200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359187700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Login to Application",
+            "match": {
+              "location": "UserTestSteps.iLoginToApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1496668100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358344900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Should Verify System Users Text",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102734700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter Username",
+            "match": {
+              "location": "UserTestSteps.iEnterUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20174006100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Select User Role",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154612000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Select the Status Enable",
+            "match": {
+              "location": "UserTestSteps.iSelectTheStatusEnable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89436600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Click on Search Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40099977000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),\u0027Yuvraji\u0027)]\"}\n  (Session info: chrome\u003d113.0.5672.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9511f299701e1333cc6f03bf77b40136, findElement {using\u003dxpath, value\u003d//div[contains(text(),\u0027Yuvraji\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Monika\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54298/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9511f299701e1333cc6f03bf77b40136\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.getText(Unknown Source)\r\n\tat com.orangehrmlive.demo.utility.Utility.getTextFromElement(Utility.java:62)\r\n\tat com.orangehrmlive.demo.pages.ViewSystemUsersPage.verifyUserShouldBeInRecordList(ViewSystemUsersPage.java:53)\r\n\tat com.orangehrmlive.demo.steps.UserTestSteps.iShouldVerifyTheUserShouldBeInResultList(UserTestSteps.java:104)\r\n\tat ✽.Then I Should Verify the User should be in Result list(UserTest.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "I Should Verify the User should be in Result list",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifyTheUserShouldBeInResultList()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@smoke"
+          },
+          {
+            "line": 20,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2518339500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Admin should delete user successfully",
+        "description": "",
+        "id": "user-test;admin-should-delete-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1222334100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1200780100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Login to Application",
+            "match": {
+              "location": "UserTestSteps.iLoginToApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1448283300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460891200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Should Verify System Users Text",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348028800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter Username",
+            "match": {
+              "location": "UserTestSteps.iEnterUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20268886700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Select User Role",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212009200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I Select Status Enable",
+            "match": {
+              "location": "UserTestSteps.iSelectStatusEnable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133635100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Click on Search Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40056705900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),\u0027Yuvraji\u0027)]\"}\n  (Session info: chrome\u003d113.0.5672.127)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a2f3650d0a76b8df552d92e0f81aa0d, findElement {using\u003dxpath, value\u003d//div[contains(text(),\u0027Yuvraji\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Monika\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54347/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8a2f3650d0a76b8df552d92e0f81aa0d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.getText(Unknown Source)\r\n\tat com.orangehrmlive.demo.utility.Utility.getTextFromElement(Utility.java:62)\r\n\tat com.orangehrmlive.demo.pages.ViewSystemUsersPage.verifyUserShouldBeInRecordList(ViewSystemUsersPage.java:53)\r\n\tat com.orangehrmlive.demo.steps.UserTestSteps.iShouldVerifyThatUserShouldBeInResultList(UserTestSteps.java:119)\r\n\tat ✽.Then I Should Verify that User should be in Result list(UserTest.feature:42)\r\n",
+              "status": "failed"
+            },
+            "line": 42,
+            "name": "I Should Verify that User should be in Result list",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifyThatUserShouldBeInResultList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I Click on Check box",
+            "match": {
+              "location": "UserTestSteps.iClickOnCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I Click on Delete Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnDeleteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I Click on Ok Button on Popup",
+            "match": {
+              "location": "UserTestSteps.iClickOnOkButtonOnPopup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I should verify message Successfully Deleted",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifyMessageSuccessfullyDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2030461900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Search the delete user and verify the message No Record Found",
+        "description": "",
+        "id": "user-test;search-the-delete-user-and-verify-the-message-no-record-found",
+        "after": [
+          {
+            "result": {
+              "duration": 766004600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1435990900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I Login to Application",
+            "match": {
+              "location": "UserTestSteps.iLoginToApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1788134100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click on Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453302100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I Should Verify System Users Text",
+            "match": {
+              "location": "UserTestSteps.iShouldVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147155800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I enter Username",
+            "match": {
+              "location": "UserTestSteps.iEnterUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20479042000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I Select User Role",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201145500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I Select a Status Disable",
+            "match": {
+              "location": "UserTestSteps.iSelectaStatusDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123249600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I Click on Search Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290199900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I verify message No Records Found",
+            "match": {
+              "location": "UserTestSteps.iVerifyMessageNoRecordsFound()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "User Test",
+    "description": "",
+    "id": "user-test",
+    "keyword": "Feature",
+    "uri": "UserTest.feature"
+  }
+]
